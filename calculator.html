@@ -1,0 +1,49 @@
+  
+<html> 
+<head> 
+<script type="text/javascript" src="assign.js"></script> 
+</head> 
+<body id="grad1"> <center>
+	<div class = title >Calculator</div> 
+	<table border="1"> 
+		<tr> 
+			<td colspan="4"><input type="text" id="result"/></td> 
+			
+			 
+		</tr> 
+		<tr> 
+
+			<td><input type="button" value="1" onclick="displayy('1')"/> </td> 
+			<td><input type="button" value="2" onclick="displayy('2')"/> </td> 
+			<td><input type="button" value="3" onclick="displayy('3')"/> </td> 
+            <td><input type="button" id="solvee" value="c" onclick="clr()"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4" onclick="displayy('4')"/> </td> 
+			<td><input type="button" value="5" onclick="displayy('5')"/> </td> 
+			<td><input type="button" value="6" onclick="displayy('6')"/> </td> 
+			<td><input type="button" value="-" onclick="displayy('-')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="7" onclick="displayy('7')"/> </td> 
+			<td><input type="button" value="8" onclick="displayy('8')"/> </td> 
+			<td><input type="button" value="9" onclick="displayy('9')"/> </td> 
+			<td><input type="button" value="+" onclick="dis('+')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="." onclick="displayy('.')"/> </td> 
+			<td><input type="button" value="0" onclick="displayy('0')"/> </td> 
+			<!-- solve function call function solve to evaluate value -->
+            <td><input type="button" value="%" onclick="displayy('%')"/> </td>
+			<td><input type="button" value="*" onclick="displayy('*')"/> </td> 
+		</tr> 
+        <tr>
+        <td><input type="button" value="*" onclick="displayy('*')"/> </td> 
+        <td><input type="button" value="√" onclick="root()"/> </td>
+        <td><input type="button" value="/" onclick="displayy('/')"/> </td> 
+        <td><input type="button" id="solvee" value="=" onclick="solve()"/> </td> 
+        </tr>
+	</table> 
+    </center>
+</body> 
+</html
